@@ -21,8 +21,8 @@ class Product
     }
     void displayProductInfo()
     {
-        System.out.println("ProducrId : "+productId);
-        System.out.println("ProductName : "+productName);
+        System.out.println("Product Id : "+productId);
+        System.out.println("Product Name : "+productName);
         System.out.println("Product Price : "+price);
     }
 }
@@ -32,7 +32,7 @@ public class Practical2
     {
         Product product1=new Product(101,"Laptop",999.99);
         Product product2=new Product(202,"Smart Phone",499.95);
-        Product product3=new Product(303,"Tablet",299.50);
+        Product product3=new Product(303,"Tablet",299.5);
         Product calcDiscount=new Product();
 
         product1.displayProductInfo();
