@@ -40,7 +40,7 @@ public class Practical2
         product3.displayProductInfo();
 
         double DiscountedPrice=calcDiscount.discount(product1.price,10);
-        System.out.println("Discounted Price :"+DiscountedPrice);
+        System.out.println("Discounted Price : "+DiscountedPrice);
         System.out.println(Product.count);
     }
 }
